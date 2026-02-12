@@ -8,7 +8,7 @@ A kernel is a software abstraction for the hardware. In short, it is what lets p
 ## what is a linux distro?
 Distro is short for Distribution. A linux distro is a linux distribution, that's usually just a "package" that has the kernel and some supporting software, like a package manager, or if the distro is userfriendly enough, a Desktop Environment and a GUI settings utility.
 
-## which distros are the userfriendly ones?
+## which distros are the user friendly ones?
 There are quite a few beginner-friendly distros. Some popular choices are:
 1. [Linux mint](https://linuxmint.com): Linux mint comes in three flavours- XFCE, MATE & Cinnamon. You can choose whichever one you like.
 2. [Pop_OS](https://system76.com/pop/): a great option if you have an NVIDIA gpu as it comes with NVIDIA drivers out of the box. Also, a solid distro if you want to do gaming.
@@ -43,12 +43,7 @@ A display server is a process (you shall see that a lot of processes that run in
 
 Wayland is a display protocol that replaced X11. Under Wayland, a program called the compositor is given the task of acting as a display server (i.e, managing events like mouse movements, window activations, keystrokes, etc.). The clients to this server are the various wndows that are to be 
 
-## How do I learn linux?
-There is no single way to learn Linux, and it largley depends on what you choose to do with your install, with many different non linear paths that can be pursued at any time, and in largley any order. However, it is reccomended that you start by learning the basic commands that will let you navigate the system.
-1. [linuxjourney](https://labex.io/linuxjourney). One of the best resources for learning linux basics. After going through it, you'll know everything about linux internals like the kernel, shell and filesystem and will know how to navigate using the command line like a pro.
-2. [Overthewire Bandit](https://overthewire.org/wargames/bandit/). Another great resource for getting the basics of linux down. This is an interactive game designed to teach the linux basics.
 
-After completing these, you are well-equipped to explore the world of linux on your own.
 
 ## Where to get help?
 1. General help: [r/linux4noobs](https://www.reddit.com/r/linux4noobs/): a warm community for helping new linux users.
