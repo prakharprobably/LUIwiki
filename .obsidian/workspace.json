@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning resources.md",
+                "file": "Walkthrough and installation guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning resources"
+              "title": "Walkthrough and installation guide"
             }
           }
         ],
@@ -202,8 +202,11 @@
   "lastOpenFiles": [
     "Index.md",
     "Learning resources.md",
-    "Walkthrough and installation guide.md",
     "Troubleshooting and getting help.md",
+    "FAQs.md",
+    "Socials.md",
+    "Rules and guidelines.md",
+    "Walkthrough and installation guide.md",
     "Untitled"
   ]
 }
