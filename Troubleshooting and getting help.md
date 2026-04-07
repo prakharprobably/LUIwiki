@@ -4,33 +4,37 @@ Troubleshooting can be a difficult task, especially for beginners. However, with
 ### 1. Understand the problem
 The first step to troubleshooting is to gain a clear understanding of the problem you are facing. Ask questions and gather as much information as possible. Knowing the symptoms and the context in which the issue occurred can be immensely helpful.
 
-_What exactly are you experiencing? Is there an error message? What is the general expectation of running a command or service or process? What is not working ?_
+_What exactly are you experiencing? Is there an error message? What is the general expectation of running a command or service or process? What is not working ? Is the problem repeatable?_
 
 ### 2. Check the logs
-Based on the gathered information or the error message , you should check the logs for any info/error. The most important logs to check are the kernel log, application logs and the system logs. These logs can contain error messages, warnings, and other information that can help you to identify the cause of the problem. **/var/log/** is the main key folder to check the system wide logs of various processes. Have a good knowledge of this folder.
+Based on the gathered information or the error message , you should check the logs for any info/error. The most important logs to check are the kernel log, application logs and the system logs. These logs can contain error messages, warnings, and other information that can help you to identify the cause of the problem. `/var/log/` is the main key folder to check the system wide logs of various processes. Have a good knowledge of this folder.
+Additionally, in case your install uses systemd, you can use `journalctl` to read logs in realtime to see what the problem is.
+If your problem is with a specific piece of software, run it from the commandline, it will output `stdout` and `stderr` streams into the terminal window, which is immensely helpful in identifying the problem. 
 
 ### 3. Utilize command-line tools
 Linux provides a plethora of command-line tools and utilities that can help you diagnose issues. 
-- 'top'('btop' is a more modern and cleaner alternative) for monitoring system resources.
-- 'netstat' or 'ss' for network troubleshooting.
-- 'ps' for process management.
-- 'free' for memory related info.
-- 'tail' or 'head' command to read the logs.
-- 'grep' to catch / filter the required strings in the logs like error or warn etc
-- 'dmesg' for kernel logs.
-- 'df' or 'du' for disk related info.
-- 'systemctl' for service related tasks like service start or stop.
-- 'mount' and 'umount' for mounting and unmounting the disks etc.
-If you do not know what any of these commands do then check out the man page for the command you want to run by simply running `man <command>` in the terminal. It provides you with a brief description of what the command does and it's usage and available options.
+- `top`(`btop` is a more modern and cleaner alternative) for monitoring system resources.
+- `netstat` or `ss` for network troubleshooting.
+- `ps` for process management.
+- `free` for memory related info.
+- `tail` or `head` command to read the logs.
+- `grep` to catch / filter the required strings in the logs like error or warn etc
+- `dmesg` for kernel logs.
+- `df` or `du` for disk related info.
+- `systemctl` for service related tasks like service start or stop.
+- `mount` and `umount` for mounting and unmounting the disks etc.
+If you do not know what any of these commands do then check out the man page for the command you want to run by simply running `man <command>` in the terminal. It provides you with a brief description of what the command does and its usage and available options.
+Of course, there's a lot more commands than the ones listed here, and it will not be possible to list them all. In case you need a refresher on how to use commands, check out our [[Guide to bash commands]].
 ### 4. Leverage online resources
-Explore online forums, communities, and knowledge bases. Often, you'll find that someone else has encountered a similar issue and shared their solution. Be cautious to not apply any random solution to your system without doing the due diligence or the analysis of the resultant impacts it can have on your system performance.
+Explore online forums, communities, and knowledge bases. Often, you'll find that someone else has encountered a similar issue and shared their solution. Be cautious, however, to not run any random command to your system without doing an analysis of the command, and properly understanding what the problem it is solving really is. At the end of the day, you are responsible for your own system, and for any impacts to its performance from commands that you run, even if you copied it from somewhere else.
+This is what makes LLMs especially bad for diagnosing problems in linux, since they do not have a proper model of how your linux install works. They simply output the next most statistically probable word, even in command suggestions. The linux ecosystem trusts the user with extreme power, with the expectation that the user understands how to use that power. Outsourcing your commands to an LLM can do very irreparable harm to your install, oftentimes requiring a complete reinstall.
 
 ### 5. Learn from mistakes
 In the world of Linux, mistakes are part of the learning process. When troubleshooting, it's possible to make errors or try solutions that don't work. Don't get discouraged when that happens, instead use this opportunity to learn and try out new solutions.
 
 
 ## Where to get help?
-1. General help: [r/linux4noobs](https://www.reddit.com/r/linux4noobs/)/[r/linuxquestions](https://www.reddit.com/r/linuxquestions/).
+1. General help: [r/linux4noobs](https://www.reddit.com/r/linux4noobs/)/[r/linuxquestions](https://www.reddit.com/r/linuxquestions/). [r/linuxusersindia](https://www.reddit.com/r/linuxusersindia/)
 2. Choosing a distro: [r/Distrohopping](https://www.reddit.com/r/DistroHopping/)/[r/distroreviews](https://www.reddit.com/r/distroreviews/).
 3. Gaming help: [r/linux_gaming](https://www.reddit.com/r/linux_gaming/).
 4. Hardware help: [r/linuxhardware](https://www.reddit.com/r/linuxhardware/).
