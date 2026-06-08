@@ -36,4 +36,4 @@ a) Users are discouraged from suggesting closed source software without technica
 ## 8. Regarding site compliance
 a) Users are required to follow Reddit's ToS and community guidelines.
 b) Content and users violating 8.a) will be removed. Additionally, it will be reported to the Reddit Admins
-c) The subreddit holds no responsibility to restore content deemed inappropriate by the Reddit Administration. Requests for the same will not be tolerated.
+c) The subreddit holds no responsibility to restore content deemed inappropriate by the Reddit Administration. Requests for the same will not be entertained.

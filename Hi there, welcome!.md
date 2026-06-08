@@ -15,3 +15,4 @@ The following pages have been prepared by the community and are meant as a guide
 2. [[Learning resources]]
 3. [[Troubleshooting and getting help]]
 4. [[Frequenty Asked Questions]]
+5. [[Guide to bash commands]]
