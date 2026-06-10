@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to the terminal.md",
+                "file": "Hi there, welcome!.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to the terminal"
+              "title": "Hi there, welcome!"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,17 +197,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "66d60e06cfd6c44d",
+  "active": "3680e37a452c8a9f",
   "lastOpenFiles": [
-    "Guide to bash commands.md",
-    "Introduction to the terminal.md",
+    "Hi there, welcome!.md",
     "FAQs.md",
+    "Learning resources.md",
+    "Walkthrough and installation guide.md",
+    "Introduction to the terminal.md",
+    "Guide to bash commands.md",
     "Frequenty Asked Questions.md",
     "Rules of the subreddit.md",
-    "Walkthrough and installation guide.md",
     "Troubleshooting and getting help.md",
-    "Learning resources.md",
-    "Hi there, welcome!.md",
     "Socials.md",
     "Rules and guidelines.md",
     "Index.md",
