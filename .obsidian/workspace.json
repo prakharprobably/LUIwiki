@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hi there, welcome!.md",
+                "file": "FAQs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hi there, welcome!"
+              "title": "FAQs"
             }
           }
         ],
@@ -200,20 +200,20 @@
   },
   "active": "66d60e06cfd6c44d",
   "lastOpenFiles": [
+    "Troubleshooting and getting help.md",
+    "Walkthrough and installation guide.md",
+    "Guide to bash commands.md",
+    "Rules of the subreddit.md",
+    "Hi there, welcome!.md",
     "How do I contribute to this wiki?.md",
     "FAQs.md",
     "Learning resources.md",
-    "Rules of the subreddit.md",
-    "Hi there, welcome!.md",
     "kernel.md",
     "www.github.com/LinuxUsersIndia/LUIwiki.md",
     "www.github.com/LinuxUsersIndia",
     "www.github.com",
-    "Walkthrough and installation guide.md",
     "Introduction to the terminal.md",
-    "Guide to bash commands.md",
     "Frequenty Asked Questions.md",
-    "Troubleshooting and getting help.md",
     "Socials.md",
     "Rules and guidelines.md",
     "Index.md",
