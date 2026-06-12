@@ -8,11 +8,12 @@ This section is meant to provide a few useful links for the community for those 
 - [The Community Telegram Channel](https://t.me/LinuxUsersIndia)
 - [Modmail](https://www.reddit.com/message/compose?to=r/LinuxUsersIndia)
 - [List of current moderators](https://www.reddit.com/mod/LinuxUsersIndia/moderators/)
+- [[How do I contribute to this wiki?]]
 ## Kickstart your time with Linux
 The following pages have been prepared by the community and are meant as a guide to help you progress through your journey forward with linux. This list is by no means complete or exhaustive and we invite the community to add additional learning resources by contributing to the the wiki repository here (add link later).
 
 1. [[Walkthrough and installation guide]]
 2. [[Learning resources]]
 3. [[Troubleshooting and getting help]]
-4. [[Frequenty Asked Questions]]
+4. [[FAQs]]
 5. [[Guide to bash commands]]

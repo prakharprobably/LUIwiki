@@ -1,0 +1,10 @@
+This wiki is a community project (like wikis are meant to be, screw reddit), therefore, contributions from the community are always welcome for expanding the community's knowledgebase.
+## The technical stuff
+The wiki is hosted at [this github repository](https://www.github.com/LinuxUsersIndia/LUIwiki), as an obsidian vault. Contributions can be made by forking this repository, adding/editing pages, committing the changes, and then submitting a pull request. Adding/editing pages can readily be done with [Obsidian](https://obsidian.md/) (Some source of locally editing markdown files was needed, the best app we found for this usecase was Obsidian, which is completely free for local use). Pull requests with contributions will be verified against more independent sources, and periodically, will be merged. Following this the wiki on the subreddit will be updated by the moderators (in the event that the moderators forget this, for whatever reason, users are welcome to use the [modmail](https://www.reddit.com/message/compose?to=r/LinuxUsersIndia) for bringing this to the attention of the moderators).
+## The more general guidelines
+### What you can edit
+You can edit every page except [[Rules of the subreddit]], for obvious reasons.
+### What pages fit the wiki
+Almost everything Linux is fit for adding to the community knowledgebase. This could be a procedure to accomplish a task (in such cases start the title of the page with "Howto: "), it could be a description of a binary/project available for installation, it could be an elaborate description of usage of a command from the terminal, it could be a description of a critical process like the bootup sequence. All things related to Linux are welcomed here.
+### How you should try to write
+It is greatly appreciated if the contributions are written in reported speech rather than direct speech (omitting the use of first person pronouns wherever possible).

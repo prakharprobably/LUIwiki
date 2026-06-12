@@ -18,4 +18,7 @@ Certain (versions) of Adobe apps (like Photoshop21) have started working fully u
 ## How's the Video Editing scene?
 Some professional grade Video Editors, like DaVinci Resolve, work natively under linux. FOSS video editors, like Kdenlive, are reasonably powerful too if used creatively.
 Some versions of Premiere Pro have been shown to work on Linux via compatibility layers, however testing has been scant in comparison to that for Photoshop.
+## How well do high security applications run?
+Things that run in the browser will work completely fine on linux (such as Digitlocker and similar government portals, and netbanking webapps of banks).
+Proctoring software occasionally used for exams, however, may not work perfectly well under Linux. In such cases it is best to keep a small windows partition. 
 
