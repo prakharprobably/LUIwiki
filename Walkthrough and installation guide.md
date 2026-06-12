@@ -10,8 +10,8 @@ Distro is short for Distribution. A linux distro is a linux distribution, that's
 
 ## which distros are the user friendly ones?
 There are quite a few beginner-friendly distros. Some popular choices are:
-1. [Linux mint](https://linuxmint.com): Linux mint comes in three flavours: XFCE, MATE & Cinnamon. You can choose whichever one you like.
-2. [Pop_OS](https://system76.com/pop/): a great option if you have an NVIDIA gpu as it comes with NVIDIA drivers out of the box. Also, a solid distro if you want to do gaming.
+1. [Linux mint](https://linuxmint.com): Linux mint comes in three flavours: XFCE, MATE & Cinnamon. You can choose whichever one you like. All three of the DEs are very light  (and use X) so this is a very good choice for low powered and older machines.
+2. [Bazzite](https://bazzite.gg/): a great option if you have an Nvidia GPU as it comes with Nvidia drivers out of the box.  Also, this a solid distro if you want to do gaming (for the same reason).
 3. [Fedora linux](https://fedoraproject.org/): Provides cutting-edge software without compromising stability. If you want the latest packages and a secure system then fedora might be the perfect distro for you.
 
 There are many other distros, and this list is by no means exhaustive. These three have been mentioned for the sake of simplicity.
