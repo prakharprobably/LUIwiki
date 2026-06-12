@@ -35,7 +35,8 @@
               "title": "Hi there, welcome!"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,16 +198,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "3680e37a452c8a9f",
+  "active": "66d60e06cfd6c44d",
   "lastOpenFiles": [
-    "Hi there, welcome!.md",
+    "How do I contribute to this wiki?.md",
     "FAQs.md",
     "Learning resources.md",
+    "Rules of the subreddit.md",
+    "Hi there, welcome!.md",
+    "kernel.md",
+    "www.github.com/LinuxUsersIndia/LUIwiki.md",
+    "www.github.com/LinuxUsersIndia",
+    "www.github.com",
     "Walkthrough and installation guide.md",
     "Introduction to the terminal.md",
     "Guide to bash commands.md",
     "Frequenty Asked Questions.md",
-    "Rules of the subreddit.md",
     "Troubleshooting and getting help.md",
     "Socials.md",
     "Rules and guidelines.md",
